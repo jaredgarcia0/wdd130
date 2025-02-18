@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.envelope{
+    grid-column: 1/2;
+    height: 200px;
+    width: 400px;
+    background-color: #F0B5B3;
+    margin-top: 40%;
+    border-radius: 10px;
+}
+
+/* .triangle{
+    border-top: 50px solid black;
+    border-bottom: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+} */
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #F6839C; /* Adjust color and size */
+}
