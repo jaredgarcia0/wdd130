@@ -264,6 +264,24 @@ footer .social img{
     padding-top: 15px;
 }
 
+/* ************** subpage - about us *************** */
+
+.about-us-container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    padding: 5%;
+    grid-gap: 50px;
+}
+
+.about-us-text{
+    grid-column: 2/3;
+}
+
+.team-container{
+
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

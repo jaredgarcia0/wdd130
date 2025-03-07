@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content{
+    margin:0 auto;
+    justify-items: center;
+    flex-grow: 1;
+}
+
+.hero-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-content{
+    background-color: #595687;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+
+
+
+@media screen and (max-width: 900px) {
+    .content{
+        flex-direction: column;
+    }
+    
+}
